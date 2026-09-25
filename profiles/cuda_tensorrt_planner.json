@@ -1,0 +1,35 @@
+{
+  "model": "planner",
+  "unit": "s",
+  "quantile": 0.5,
+  "points": {
+    "1": 0.008272580511402339
+  },
+  "fit": {
+    "a": 0.008272580511402339,
+    "c": 0.0
+  },
+  "stats": {
+    "1": {
+      "mean": 0.008292979758698494,
+      "p50": 0.008272580511402339,
+      "p90": 0.008422981551848351,
+      "p99": 0.008594358336413279,
+      "max": 0.008607887080870569
+    }
+  },
+  "meta": {
+    "warmup": 10,
+    "iters": 40,
+    "prefix": "cuda_tensorrt",
+    "torch": "2.13.0+cu130",
+    "threads": 1,
+    "device": "cuda",
+    "backend": "tensorrt",
+    "machine": "x86_64",
+    "python": "3.10.12",
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "cuda": "13.0",
+    "tensorrt": "11.3.0.99"
+  }
+}

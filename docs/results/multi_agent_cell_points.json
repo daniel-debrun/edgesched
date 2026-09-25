@@ -1,0 +1,3929 @@
+[
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.366757692274739,
+  "measured_util": 0.3013541635461381,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.452041843185954,
+  "measured_util": 0.3022353773416843,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.624958675981654,
+  "measured_util": 0.30219673241929473,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.366757692274739,
+  "measured_util": 0.3013541635461381,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.452041843185954,
+  "measured_util": 0.3022353773416843,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.624958675981654,
+  "measured_util": 0.30219673241929473,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.0779753915904,
+  "measured_util": 0.3013424638329153,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.107317457183704,
+  "measured_util": 0.30263134703933237,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.08484695367072,
+  "measured_util": 0.30180584726848164,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.0779753915904,
+  "measured_util": 0.3013424638329153,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.107317457183704,
+  "measured_util": 0.30263134703933237,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.08484695367072,
+  "measured_util": 0.30180584726848164,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.30517380790721,
+  "measured_util": 0.21661625953491578,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.443472538074964,
+  "measured_util": 0.21659157222910466,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.502869029794418,
+  "measured_util": 0.21733436000225434,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.30517380790721,
+  "measured_util": 0.21661625953491578,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.443472538074964,
+  "measured_util": 0.21659157222910466,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 9.502869029794418,
+  "measured_util": 0.21733436000225434,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.003185444732228,
+  "measured_util": 0.2162728966537463,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.287501362414973,
+  "measured_util": 0.21654642434371255,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.47244094488188976,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 11.477696442325398,
+  "measured_util": 0.2172915678372692,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.614295422350235,
+  "measured_util": 0.4018055513948525,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.694735225614096,
+  "measured_util": 0.4029805031222471,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.859848409685092,
+  "measured_util": 0.4029289765590568,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.614295422350235,
+  "measured_util": 0.4018055513948525,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.694735225614096,
+  "measured_util": 0.4029805031222471,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.859848409685092,
+  "measured_util": 0.4029289765590568,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.36280933853213,
+  "measured_util": 0.4017067293057569,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.463145156715772,
+  "measured_util": 0.40349126434641164,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.412307742995994,
+  "measured_util": 0.4024518287463003,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.36280933853213,
+  "measured_util": 0.4017067293057569,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.463145156715772,
+  "measured_util": 0.40349126434641164,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 15.412307742995994,
+  "measured_util": 0.4024518287463003,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 12.993121517862642,
+  "measured_util": 0.2884210881180511,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.162035707655306,
+  "measured_util": 0.288636018398856,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.183410330023777,
+  "measured_util": 0.2895862807644774,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 12.993121517862642,
+  "measured_util": 0.2884210881180511,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.162035707655306,
+  "measured_util": 0.288636018398856,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 13.183410330023777,
+  "measured_util": 0.2895862807644774,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 14.51412524367438,
+  "measured_util": 0.2883638622049939,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 1,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 14.77176787665968,
+  "measured_util": 0.2887285657916177,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 0.6299212598425197,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 14.904673132822932,
+  "measured_util": 0.2897220904496943,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.000425531914893617,
+  "high_crit_miss_rate": 0.0004347826086956522,
+  "p99_ms": 17.89311780712433,
+  "measured_util": 0.5022569392435642,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 17.99973119278146,
+  "measured_util": 0.5037256289028044,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.001702127659574468,
+  "high_crit_miss_rate": 0.0017391304347826088,
+  "p99_ms": 18.205370707805734,
+  "measured_util": 0.5044209074749573,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.000425531914893617,
+  "high_crit_miss_rate": 0.0004347826086956522,
+  "p99_ms": 17.89311780712433,
+  "measured_util": 0.5022569392435642,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 17.99973119278146,
+  "measured_util": 0.5037256289028044,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.001702127659574468,
+  "high_crit_miss_rate": 0.0017391304347826088,
+  "p99_ms": 18.205370707805734,
+  "measured_util": 0.5044209074749573,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.722674075188056,
+  "measured_util": 0.5021334116321942,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.763383670340076,
+  "measured_util": 0.5043640804330101,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.716090318790446,
+  "measured_util": 0.5030647859328721,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.722674075188056,
+  "measured_util": 0.5021334116321942,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.763383670340076,
+  "measured_util": 0.5043640804330101,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 19.716090318790446,
+  "measured_util": 0.5030647859328721,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.783489193082318,
+  "measured_util": 0.3605263601475619,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.939480969802688,
+  "measured_util": 0.3607950229985702,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.99091236489615,
+  "measured_util": 0.36198285095559385,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.783489193082318,
+  "measured_util": 0.3605263601475619,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.939480969802688,
+  "measured_util": 0.3607950229985702,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 16.99091236489615,
+  "measured_util": 0.36198285095559385,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 0,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 17.8430124371161,
+  "measured_util": 0.3597753573446532,
+  "mean_batch": 2.7642212632404863,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 1,
+  "miss_rate": 0.0011347517730496454,
+  "high_crit_miss_rate": 0.0011594202898550724,
+  "p99_ms": 18.20379863151622,
+  "measured_util": 0.3603817746213519,
+  "mean_batch": 2.7637362637362637,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 0.7874015748031495,
+  "seed": 2,
+  "miss_rate": 0.003404255319148936,
+  "high_crit_miss_rate": 0.0034782608695652175,
+  "p99_ms": 18.64431079497919,
+  "measured_util": 0.3620253389745308,
+  "mean_batch": 2.7627651217596227,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.03985815602836879,
+  "high_crit_miss_rate": 0.04072463768115942,
+  "p99_ms": 20.733755699882224,
+  "measured_util": 0.5955947366157555,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.03943262411347518,
+  "high_crit_miss_rate": 0.04028985507246377,
+  "p99_ms": 20.758481914558065,
+  "measured_util": 0.5969094673609401,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.03829787234042553,
+  "high_crit_miss_rate": 0.0391304347826087,
+  "p99_ms": 20.831883033505747,
+  "measured_util": 0.5980847927931937,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.03985815602836879,
+  "high_crit_miss_rate": 0.04072463768115942,
+  "p99_ms": 20.733755699882224,
+  "measured_util": 0.5955947366157555,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.03943262411347518,
+  "high_crit_miss_rate": 0.04028985507246377,
+  "p99_ms": 20.758481914558065,
+  "measured_util": 0.5969094673609401,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.03829787234042553,
+  "high_crit_miss_rate": 0.0391304347826087,
+  "p99_ms": 20.831883033505747,
+  "measured_util": 0.5980847927931937,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.038713289535373,
+  "measured_util": 0.6025600939586331,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.00028368794326241134,
+  "high_crit_miss_rate": 0.0002898550724637681,
+  "p99_ms": 24.129784936893014,
+  "measured_util": 0.605236896519615,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 23.992929973082717,
+  "measured_util": 0.6036777431194473,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.038713289535373,
+  "measured_util": 0.6025600939586331,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.00028368794326241134,
+  "high_crit_miss_rate": 0.0002898550724637681,
+  "p99_ms": 24.129784936893014,
+  "measured_util": 0.605236896519615,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 23.992929973082717,
+  "measured_util": 0.6036777431194473,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.611711302151367,
+  "measured_util": 0.4326316321770765,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.698662214795007,
+  "measured_util": 0.43295402759827883,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.814824154209763,
+  "measured_util": 0.43437942114671224,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.611711302151367,
+  "measured_util": 0.4326316321770765,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.698662214795007,
+  "measured_util": 0.43295402759827883,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 20.814824154209763,
+  "measured_util": 0.43437942114671224,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 0,
+  "miss_rate": 0.05673758865248227,
+  "high_crit_miss_rate": 0.057971014492753624,
+  "p99_ms": 21.60997504888318,
+  "measured_util": 0.4318671702969903,
+  "mean_batch": 2.7608182533438237,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 1,
+  "miss_rate": 0.04595744680851064,
+  "high_crit_miss_rate": 0.04695652173913043,
+  "p99_ms": 21.615444829528958,
+  "measured_util": 0.43219424472396284,
+  "mean_batch": 2.760330578512397,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 0.9448818897637795,
+  "seed": 2,
+  "miss_rate": 0.04156028368794326,
+  "high_crit_miss_rate": 0.042463768115942026,
+  "p99_ms": 21.64565813768249,
+  "measured_util": 0.43342575861913357,
+  "mean_batch": 2.760330578512397,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": true
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0825531914893617,
+  "high_crit_miss_rate": 0.08434782608695653,
+  "p99_ms": 22.201591423649056,
+  "measured_util": 0.6772609009782509,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.08113475177304964,
+  "high_crit_miss_rate": 0.08289855072463768,
+  "p99_ms": 22.239514281089594,
+  "measured_util": 0.6794810399226343,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.08099290780141843,
+  "high_crit_miss_rate": 0.0827536231884058,
+  "p99_ms": 21.826853952701804,
+  "measured_util": 0.6784130270694924,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0825531914893617,
+  "high_crit_miss_rate": 0.08434782608695653,
+  "p99_ms": 22.201591423649056,
+  "measured_util": 0.6772609009782509,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.08113475177304964,
+  "high_crit_miss_rate": 0.08289855072463768,
+  "p99_ms": 22.239514281089594,
+  "measured_util": 0.6794810399226343,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.08099290780141843,
+  "high_crit_miss_rate": 0.0827536231884058,
+  "p99_ms": 21.826853952701804,
+  "measured_util": 0.6784130270694924,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 28.373766888775336,
+  "measured_util": 0.7029867762850713,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.001276595744680851,
+  "high_crit_miss_rate": 0.0013043478260869566,
+  "p99_ms": 28.31431950585069,
+  "measured_util": 0.7054811216350614,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.00014184397163120567,
+  "high_crit_miss_rate": 0.00014492753623188405,
+  "p99_ms": 28.260843119041507,
+  "measured_util": 0.7042778938249608,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 28.373766888775336,
+  "measured_util": 0.7029867762850713,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.001276595744680851,
+  "high_crit_miss_rate": 0.0013043478260869566,
+  "p99_ms": 28.31431950585069,
+  "measured_util": 0.7054811216350614,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.00014184397163120567,
+  "high_crit_miss_rate": 0.00014492753623188405,
+  "p99_ms": 28.260843119041507,
+  "measured_util": 0.7042778938249608,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.401499626670898,
+  "measured_util": 0.5047369042065888,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.509765750211027,
+  "measured_util": 0.5051130321979944,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.000851063829787234,
+  "high_crit_miss_rate": 0.0008695652173913044,
+  "p99_ms": 24.56163228179068,
+  "measured_util": 0.5071150035599078,
+  "mean_batch": 2.760971786833856,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.401499626670898,
+  "measured_util": 0.5047369042065888,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 24.509765750211027,
+  "measured_util": 0.5051130321979944,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.0011347517730496454,
+  "high_crit_miss_rate": 0.0011594202898550724,
+  "p99_ms": 24.392517380979672,
+  "measured_util": 0.5073057777609226,
+  "mean_batch": 2.7642212632404863,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 0,
+  "miss_rate": 0.0851063829787234,
+  "high_crit_miss_rate": 0.08695652173913043,
+  "p99_ms": 24.669727498137508,
+  "measured_util": 0.4946757260101751,
+  "mean_batch": 2.6983471074380163,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 1,
+  "miss_rate": 0.0851063829787234,
+  "high_crit_miss_rate": 0.08695652173913043,
+  "p99_ms": 24.767570087723776,
+  "measured_util": 0.49455632015037027,
+  "mean_batch": 2.6983471074380163,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.1023622047244093,
+  "seed": 2,
+  "miss_rate": 0.08595744680851064,
+  "high_crit_miss_rate": 0.08782608695652173,
+  "p99_ms": 24.517625693941074,
+  "measured_util": 0.49531989276848276,
+  "mean_batch": 2.6961920529801326,
+  "admitted": {
+   "none": true,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.08567375886524822,
+  "high_crit_miss_rate": 0.08753623188405797,
+  "p99_ms": 25.608333763240573,
+  "measured_util": 0.7691912879947652,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.08654937570942112,
+  "high_crit_miss_rate": 0.08843142939982604,
+  "p99_ms": 25.24388531803724,
+  "measured_util": 0.7682026133480032,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.0875177304964539,
+  "high_crit_miss_rate": 0.08942028985507246,
+  "p99_ms": 25.52483832756042,
+  "measured_util": 0.7705964232025003,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.08553191489361703,
+  "high_crit_miss_rate": 0.08739130434782609,
+  "p99_ms": 25.608333763240573,
+  "measured_util": 0.7691674647302038,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.08640749148694665,
+  "high_crit_miss_rate": 0.08828645984343288,
+  "p99_ms": 25.24388531803724,
+  "measured_util": 0.7682221979240449,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.08723404255319149,
+  "high_crit_miss_rate": 0.0891304347826087,
+  "p99_ms": 25.52483832756042,
+  "measured_util": 0.7705968972329084,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.004964539007092199,
+  "high_crit_miss_rate": 0.005072463768115942,
+  "p99_ms": 32.3636365698829,
+  "measured_util": 0.8030959060438813,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.006524822695035461,
+  "high_crit_miss_rate": 0.006666666666666667,
+  "p99_ms": 32.45518722064275,
+  "measured_util": 0.8065826816963589,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.006382978723404255,
+  "high_crit_miss_rate": 0.006521739130434782,
+  "p99_ms": 32.83858797003269,
+  "measured_util": 0.8069969753536935,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.004964539007092199,
+  "high_crit_miss_rate": 0.005072463768115942,
+  "p99_ms": 32.3636365698829,
+  "measured_util": 0.8030959060438813,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.006524822695035461,
+  "high_crit_miss_rate": 0.006666666666666667,
+  "p99_ms": 32.45518722064275,
+  "measured_util": 0.8065826816963589,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.006382978723404255,
+  "high_crit_miss_rate": 0.006521739130434782,
+  "p99_ms": 32.83858797003269,
+  "measured_util": 0.8069969753536935,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 28.200287100226276,
+  "measured_util": 0.5768421762361015,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 28.34266896077402,
+  "measured_util": 0.5772388741046817,
+  "mean_batch": 2.763529411764706,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 28.149102480000717,
+  "measured_util": 0.579412486995869,
+  "mean_batch": 2.7642212632404863,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.0,
+  "high_crit_miss_rate": 0.0,
+  "p99_ms": 28.200287100226276,
+  "measured_util": 0.5768421762361015,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 28.34240780901727,
+  "measured_util": 0.5772720367977088,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.0005673758865248227,
+  "high_crit_miss_rate": 0.0005797101449275362,
+  "p99_ms": 28.149102480000717,
+  "measured_util": 0.579412486995869,
+  "mean_batch": 2.7642212632404863,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 0,
+  "miss_rate": 0.08595744680851064,
+  "high_crit_miss_rate": 0.08782608695652173,
+  "p99_ms": 27.698428755600588,
+  "measured_util": 0.56168083033413,
+  "mean_batch": 2.6875,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 1,
+  "miss_rate": 0.08609929078014185,
+  "high_crit_miss_rate": 0.08797101449275363,
+  "p99_ms": 27.99229249230514,
+  "measured_util": 0.5630853448872007,
+  "mean_batch": 2.6875,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 1.2598425196850394,
+  "seed": 2,
+  "miss_rate": 0.08879432624113476,
+  "high_crit_miss_rate": 0.09072463768115942,
+  "p99_ms": 28.128567659246855,
+  "measured_util": 0.564658480918217,
+  "mean_batch": 2.6853088480801337,
+  "admitted": {
+   "none": false,
+   "same_deadline": true,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.08921985815602837,
+  "high_crit_miss_rate": 0.09115942028985508,
+  "p99_ms": 29.071312500400666,
+  "measured_util": 0.8629856670560946,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.08836879432624113,
+  "high_crit_miss_rate": 0.09028985507246377,
+  "p99_ms": 28.542536750262226,
+  "measured_util": 0.8619862345200312,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.09375886524822695,
+  "high_crit_miss_rate": 0.09579710144927536,
+  "p99_ms": 28.95975976886871,
+  "measured_util": 0.8646984839325689,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.08893617021276595,
+  "high_crit_miss_rate": 0.0908695652173913,
+  "p99_ms": 29.071312500400666,
+  "measured_util": 0.8630401360121326,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.09163120567375886,
+  "high_crit_miss_rate": 0.0936231884057971,
+  "p99_ms": 28.861022268775077,
+  "measured_util": 0.8627542541142772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.09276595744680852,
+  "high_crit_miss_rate": 0.09478260869565218,
+  "p99_ms": 29.252651465110162,
+  "measured_util": 0.8653759500068758,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.06099290780141844,
+  "high_crit_miss_rate": 0.06231884057971015,
+  "p99_ms": 37.01036954324364,
+  "measured_util": 0.8938177226205343,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.0625531914893617,
+  "high_crit_miss_rate": 0.06391304347826086,
+  "p99_ms": 37.16308450375595,
+  "measured_util": 0.8963369045619967,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.062411347517730496,
+  "high_crit_miss_rate": 0.06376811594202898,
+  "p99_ms": 36.90185459960702,
+  "measured_util": 0.8954588449752444,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.06099290780141844,
+  "high_crit_miss_rate": 0.06231884057971015,
+  "p99_ms": 36.885979733582715,
+  "measured_util": 0.8937678378872509,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.0625531914893617,
+  "high_crit_miss_rate": 0.06391304347826086,
+  "p99_ms": 37.14721031339199,
+  "measured_util": 0.8963331179329344,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.06198581560283688,
+  "high_crit_miss_rate": 0.06333333333333334,
+  "p99_ms": 36.81884105592127,
+  "measured_util": 0.8948447819241638,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.0009929078014184398,
+  "high_crit_miss_rate": 0.0010144927536231885,
+  "p99_ms": 31.889987180333687,
+  "measured_util": 0.6490597529088351,
+  "mean_batch": 2.761662093296746,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.0011347517730496454,
+  "high_crit_miss_rate": 0.0011594202898550724,
+  "p99_ms": 31.845241900095473,
+  "measured_util": 0.6489153240362399,
+  "mean_batch": 2.7637362637362637,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.003829787234042553,
+  "high_crit_miss_rate": 0.00391304347826087,
+  "p99_ms": 32.15968749460259,
+  "measured_util": 0.6519518838786857,
+  "mean_batch": 2.7578492935635794,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.0011347517730496454,
+  "high_crit_miss_rate": 0.0011594202898550724,
+  "p99_ms": 31.94979477349178,
+  "measured_util": 0.6489474482656132,
+  "mean_batch": 2.764705882352941,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.0011347517730496454,
+  "high_crit_miss_rate": 0.0011594202898550724,
+  "p99_ms": 31.845241900095473,
+  "measured_util": 0.6489153240362399,
+  "mean_batch": 2.7637362637362637,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.004822695035460993,
+  "high_crit_miss_rate": 0.004927536231884058,
+  "p99_ms": 31.968258072545908,
+  "measured_util": 0.6521577216738643,
+  "mean_batch": 2.762278978388998,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 0,
+  "miss_rate": 0.09432624113475177,
+  "high_crit_miss_rate": 0.0963768115942029,
+  "p99_ms": 31.570726821816052,
+  "measured_util": 0.6336190511829846,
+  "mean_batch": 2.685857321652065,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 1,
+  "miss_rate": 0.0924822695035461,
+  "high_crit_miss_rate": 0.0944927536231884,
+  "p99_ms": 31.52425019225618,
+  "measured_util": 0.6330643123609062,
+  "mean_batch": 2.6869528970404337,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 1.4173228346456692,
+  "seed": 2,
+  "miss_rate": 0.09617021276595744,
+  "high_crit_miss_rate": 0.09826086956521739,
+  "p99_ms": 31.3640681688922,
+  "measured_util": 0.634989690604027,
+  "mean_batch": 2.685857321652065,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.1774468085106383,
+  "high_crit_miss_rate": 0.18130434782608695,
+  "p99_ms": 32.641296125956394,
+  "measured_util": 0.9336500683834181,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.18425531914893617,
+  "high_crit_miss_rate": 0.1882608695652174,
+  "p99_ms": 32.65188442459954,
+  "measured_util": 0.9344834829695773,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.1727659574468085,
+  "high_crit_miss_rate": 0.17652173913043478,
+  "p99_ms": 32.26913961748723,
+  "measured_util": 0.9379410546643803,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.15205673758865249,
+  "high_crit_miss_rate": 0.15536231884057972,
+  "p99_ms": 32.4779251743979,
+  "measured_util": 0.9462419330664859,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.1554609929078014,
+  "high_crit_miss_rate": 0.15884057971014492,
+  "p99_ms": 32.56478016979299,
+  "measured_util": 0.9468903836782393,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.15971631205673759,
+  "high_crit_miss_rate": 0.16318840579710145,
+  "p99_ms": 32.73183620502287,
+  "measured_util": 0.9468023477476832,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.12638297872340426,
+  "high_crit_miss_rate": 0.1291304347826087,
+  "p99_ms": 54.145965897991715,
+  "measured_util": 0.9792089979597531,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.1324822695035461,
+  "high_crit_miss_rate": 0.1353623188405797,
+  "p99_ms": 74.03653800089523,
+  "measured_util": 0.9818472864832667,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.13404255319148936,
+  "high_crit_miss_rate": 0.13695652173913042,
+  "p99_ms": 73.73087453295176,
+  "measured_util": 0.9807301653101622,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.13163120567375886,
+  "high_crit_miss_rate": 0.1344927536231884,
+  "p99_ms": 72.26182240577484,
+  "measured_util": 0.9735355261635426,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.14070921985815601,
+  "high_crit_miss_rate": 0.14376811594202898,
+  "p99_ms": 73.43733980942048,
+  "measured_util": 0.9762586505522253,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.14340425531914894,
+  "high_crit_miss_rate": 0.14652173913043479,
+  "p99_ms": 51.56956079981733,
+  "measured_util": 0.9730129645089813,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.003404255319148936,
+  "high_crit_miss_rate": 0.0034782608695652175,
+  "p99_ms": 35.660028936630326,
+  "measured_util": 0.7197191221878735,
+  "mean_batch": 2.753033268101761,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.0058156028368794325,
+  "high_crit_miss_rate": 0.005942028985507246,
+  "p99_ms": 35.782647704822296,
+  "measured_util": 0.7203746076074274,
+  "mean_batch": 2.7539184952978055,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.010070921985815603,
+  "high_crit_miss_rate": 0.010289855072463768,
+  "p99_ms": 35.93118517588774,
+  "measured_util": 0.723332786667346,
+  "mean_batch": 2.7488226059654632,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.004680851063829788,
+  "high_crit_miss_rate": 0.004782608695652174,
+  "p99_ms": 35.433423775587656,
+  "measured_util": 0.7215385861140786,
+  "mean_batch": 2.7642212632404863,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.006524822695035461,
+  "high_crit_miss_rate": 0.006666666666666667,
+  "p99_ms": 35.58723672730921,
+  "measured_util": 0.7210307731608209,
+  "mean_batch": 2.7637362637362637,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.007659574468085106,
+  "high_crit_miss_rate": 0.00782608695652174,
+  "p99_ms": 35.72224330106114,
+  "measured_util": 0.7235720242257172,
+  "mean_batch": 2.762278978388998,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 0,
+  "miss_rate": 0.10070921985815603,
+  "high_crit_miss_rate": 0.10289855072463767,
+  "p99_ms": 34.70912659190573,
+  "measured_util": 0.7022451874115977,
+  "mean_batch": 2.6842105263157894,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 1,
+  "miss_rate": 0.09943262411347517,
+  "high_crit_miss_rate": 0.10159420289855073,
+  "p99_ms": 34.96827807842582,
+  "measured_util": 0.7028466245512426,
+  "mean_batch": 2.6864053377814847,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 1.574803149606299,
+  "seed": 2,
+  "miss_rate": 0.10312056737588653,
+  "high_crit_miss_rate": 0.10536231884057971,
+  "p99_ms": 34.921308403234974,
+  "measured_util": 0.7045750344717239,
+  "mean_batch": 2.683660676974509,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.26032061285288693,
+  "high_crit_miss_rate": 0.2659805768952022,
+  "p99_ms": 36.94304554071196,
+  "measured_util": 0.9859194830617315,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.2702127659574468,
+  "high_crit_miss_rate": 0.27608695652173915,
+  "p99_ms": 37.50528150606726,
+  "measured_util": 0.986388050033302,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.26939991488154347,
+  "high_crit_miss_rate": 0.2752572836642992,
+  "p99_ms": 37.72051250238179,
+  "measured_util": 0.9858093777921737,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.2642553191489362,
+  "high_crit_miss_rate": 0.27,
+  "p99_ms": 37.30154983739995,
+  "measured_util": 0.9885024651282037,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.26893617021276595,
+  "high_crit_miss_rate": 0.2747826086956522,
+  "p99_ms": 37.486207003065324,
+  "measured_util": 0.9877253904954277,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.2764539007092199,
+  "high_crit_miss_rate": 0.28246376811594204,
+  "p99_ms": 37.43125604588575,
+  "measured_util": 0.9887130567383106,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.2353191489361702,
+  "high_crit_miss_rate": 0.23405797101449274,
+  "p99_ms": 83.78535360734503,
+  "measured_util": 0.9984343278901622,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.2385750780584729,
+  "high_crit_miss_rate": 0.23636890951276102,
+  "p99_ms": 80.97470767465902,
+  "measured_util": 0.9991587010016046,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.23698027529445154,
+  "high_crit_miss_rate": 0.23430477018993764,
+  "p99_ms": 81.29584335625049,
+  "measured_util": 0.9994152718810759,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.32656826568265684,
+  "high_crit_miss_rate": 0.3140951276102088,
+  "p99_ms": 211.55234959119522,
+  "measured_util": 0.9999437052098983,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.3223562810503903,
+  "high_crit_miss_rate": 0.3114849187935035,
+  "p99_ms": 210.8213335929978,
+  "measured_util": 0.9999656080625148,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.33692875390292365,
+  "high_crit_miss_rate": 0.32569605568445475,
+  "p99_ms": 211.8305854223399,
+  "measured_util": 0.9999714549405977,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.06581560283687943,
+  "high_crit_miss_rate": 0.0672463768115942,
+  "p99_ms": 39.49132490662332,
+  "measured_util": 0.7933542218484798,
+  "mean_batch": 2.5824133993148077,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.06652482269503546,
+  "high_crit_miss_rate": 0.06797101449275363,
+  "p99_ms": 39.406676816808314,
+  "measured_util": 0.7965720504393551,
+  "mean_batch": 2.57034508911642,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.07063829787234042,
+  "high_crit_miss_rate": 0.07217391304347825,
+  "p99_ms": 39.65049351612546,
+  "measured_util": 0.7958541839406875,
+  "mean_batch": 2.5703957382039575,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.07475177304964539,
+  "high_crit_miss_rate": 0.0763768115942029,
+  "p99_ms": 39.056802796829615,
+  "measured_util": 0.7907282792619236,
+  "mean_batch": 2.7549407114624507,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.07588652482269503,
+  "high_crit_miss_rate": 0.07753623188405798,
+  "p99_ms": 39.51006290324397,
+  "measured_util": 0.7914440884687325,
+  "mean_batch": 2.7578864353312302,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.07914893617021276,
+  "high_crit_miss_rate": 0.0808695652173913,
+  "p99_ms": 39.88626864046958,
+  "measured_util": 0.7947728091245219,
+  "mean_batch": 2.751486325802616,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 0,
+  "miss_rate": 0.14964539007092198,
+  "high_crit_miss_rate": 0.15289855072463768,
+  "p99_ms": 38.185562010585265,
+  "measured_util": 0.7716021509960416,
+  "mean_batch": 2.683660676974509,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 1,
+  "miss_rate": 0.16907801418439716,
+  "high_crit_miss_rate": 0.17275362318840579,
+  "p99_ms": 38.31012909918172,
+  "measured_util": 0.7724834333371005,
+  "mean_batch": 2.684364548494983,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 1.7322834645669292,
+  "seed": 2,
+  "miss_rate": 0.1699290780141844,
+  "high_crit_miss_rate": 0.1736231884057971,
+  "p99_ms": 38.38489325297117,
+  "measured_util": 0.7751632924934854,
+  "mean_batch": 2.6797988264878456,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.43858156028368794,
+  "high_crit_miss_rate": 0.4481159420289855,
+  "p99_ms": 44.28864690017514,
+  "measured_util": 0.9957580761942668,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.4442395005675369,
+  "high_crit_miss_rate": 0.4538996810669759,
+  "p99_ms": 45.55858928065737,
+  "measured_util": 0.9954581807828391,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.43333333333333335,
+  "high_crit_miss_rate": 0.4427536231884058,
+  "p99_ms": 44.52006138444464,
+  "measured_util": 0.9966887146163227,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.41325010639807064,
+  "high_crit_miss_rate": 0.4222351065371793,
+  "p99_ms": 44.715013056946695,
+  "measured_util": 0.9993818826771353,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.4077752553916005,
+  "high_crit_miss_rate": 0.41664250507393447,
+  "p99_ms": 44.424505142452894,
+  "measured_util": 0.9994212207405592,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.41566179599943254,
+  "high_crit_miss_rate": 0.4246992317727207,
+  "p99_ms": 44.99493260080005,
+  "measured_util": 0.9993743905453384,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.25365507452093683,
+  "high_crit_miss_rate": 0.24173433874709976,
+  "p99_ms": 49.02217564485122,
+  "measured_util": 0.9998760206177433,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.25964812712826335,
+  "high_crit_miss_rate": 0.24641252355413829,
+  "p99_ms": 47.98773719660347,
+  "measured_util": 0.9998729297056751,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.2608202071803604,
+  "high_crit_miss_rate": 0.24775297187590606,
+  "p99_ms": 48.514329794098906,
+  "measured_util": 0.9999452187649404,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.45337118523775727,
+  "high_crit_miss_rate": 0.4417053364269142,
+  "p99_ms": 215.02279771229436,
+  "measured_util": 0.9999437052098983,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.4528034066713982,
+  "high_crit_miss_rate": 0.44127030162412995,
+  "p99_ms": 214.89817689167623,
+  "measured_util": 0.9999656080625148,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.4475514549325763,
+  "high_crit_miss_rate": 0.435614849187935,
+  "p99_ms": 56.79598603190768,
+  "measured_util": 0.9999714549405977,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.11347517730496454,
+  "high_crit_miss_rate": 0.11594202898550725,
+  "p99_ms": 43.57757281541392,
+  "measured_util": 0.8548591515062106,
+  "mean_batch": 2.585375494071146,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.1102127659574468,
+  "high_crit_miss_rate": 0.1126086956521739,
+  "p99_ms": 43.58836997000623,
+  "measured_util": 0.855119433324193,
+  "mean_batch": 2.5774703557312253,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.12099290780141844,
+  "high_crit_miss_rate": 0.1236231884057971,
+  "p99_ms": 43.65527044675681,
+  "measured_util": 0.8568693123422467,
+  "mean_batch": 2.572619047619048,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.11460992907801418,
+  "high_crit_miss_rate": 0.11710144927536231,
+  "p99_ms": 43.303088684384576,
+  "measured_util": 0.8502797106786577,
+  "mean_batch": 2.721071863580999,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.11702127659574468,
+  "high_crit_miss_rate": 0.11956521739130435,
+  "p99_ms": 43.22306884410759,
+  "measured_util": 0.8534862149889499,
+  "mean_batch": 2.728300363342753,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.12865248226950354,
+  "high_crit_miss_rate": 0.13144927536231885,
+  "p99_ms": 43.77143279287976,
+  "measured_util": 0.8546611171801255,
+  "mean_batch": 2.7153344208809136,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 0,
+  "miss_rate": 0.30156028368794324,
+  "high_crit_miss_rate": 0.3081159420289855,
+  "p99_ms": 41.76441653007078,
+  "measured_util": 0.8285592611923249,
+  "mean_batch": 2.627450980392157,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 1,
+  "miss_rate": 0.31134751773049646,
+  "high_crit_miss_rate": 0.3181159420289855,
+  "p99_ms": 42.358368409728826,
+  "measured_util": 0.8280105533852088,
+  "mean_batch": 2.618629173989455,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 1.889763779527559,
+  "seed": 2,
+  "miss_rate": 0.31446808510638297,
+  "high_crit_miss_rate": 0.32130434782608697,
+  "p99_ms": 41.898403154576876,
+  "measured_util": 0.8315559010556492,
+  "mean_batch": 2.6269633507853403,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.5057471264367817,
+  "high_crit_miss_rate": 0.5167464114832536,
+  "p99_ms": 49.58120798177595,
+  "measured_util": 0.9986374665515076,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.5080851063829788,
+  "high_crit_miss_rate": 0.5191304347826087,
+  "p99_ms": 49.76889207433846,
+  "measured_util": 0.9985146842582678,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.504752447155625,
+  "high_crit_miss_rate": 0.5157269169444847,
+  "p99_ms": 49.19718913130095,
+  "measured_util": 0.9986135840969114,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.5429260678302824,
+  "high_crit_miss_rate": 0.554733942293751,
+  "p99_ms": 49.71858323320878,
+  "measured_util": 0.9999269368923451,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.5414301929625426,
+  "high_crit_miss_rate": 0.5532038271962888,
+  "p99_ms": 49.448617051479616,
+  "measured_util": 0.9999656080625147,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.5463317723854122,
+  "high_crit_miss_rate": 0.5582137161084529,
+  "p99_ms": 49.71013811974565,
+  "measured_util": 0.9999714549405977,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.33692875390292365,
+  "high_crit_miss_rate": 0.3227490213136146,
+  "p99_ms": 51.06228237998209,
+  "measured_util": 0.9999437052098983,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.3391514119483468,
+  "high_crit_miss_rate": 0.3248767758770658,
+  "p99_ms": 50.558672449415795,
+  "measured_util": 0.9999656080625147,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.3387256988789556,
+  "high_crit_miss_rate": 0.3251667149898521,
+  "p99_ms": 50.58799980268347,
+  "measured_util": 0.9999714549405978,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.5050390347764372,
+  "high_crit_miss_rate": 0.4943445475638051,
+  "p99_ms": 45.46700542266002,
+  "measured_util": 0.9999437052098983,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.5091554293825408,
+  "high_crit_miss_rate": 0.49854988399071926,
+  "p99_ms": 45.474737852570655,
+  "measured_util": 0.9999656080625148,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.5111426543647978,
+  "high_crit_miss_rate": 0.5005800464037123,
+  "p99_ms": 45.567768254555105,
+  "measured_util": 0.9999714549405978,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.18609929078014184,
+  "high_crit_miss_rate": 0.19014492753623188,
+  "p99_ms": 51.41197889972988,
+  "measured_util": 0.9192680109387601,
+  "mean_batch": 2.4492125984251967,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.18893617021276596,
+  "high_crit_miss_rate": 0.19304347826086957,
+  "p99_ms": 51.407032634257334,
+  "measured_util": 0.9239041719450771,
+  "mean_batch": 2.4339327599687257,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.19588652482269503,
+  "high_crit_miss_rate": 0.2001449275362319,
+  "p99_ms": 51.872171409029676,
+  "measured_util": 0.9239914959966942,
+  "mean_batch": 2.433254344391785,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.20709219858156028,
+  "high_crit_miss_rate": 0.21159420289855072,
+  "p99_ms": 50.278606106648574,
+  "measured_util": 0.9205467972280574,
+  "mean_batch": 2.7177814029363785,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.2026950354609929,
+  "high_crit_miss_rate": 0.2071014492753623,
+  "p99_ms": 50.071108444393886,
+  "measured_util": 0.9185357273343489,
+  "mean_batch": 2.7169117647058822,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.21460992907801418,
+  "high_crit_miss_rate": 0.21927536231884057,
+  "p99_ms": 50.92156366660628,
+  "measured_util": 0.9248395870872382,
+  "mean_batch": 2.713584288052373,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 0,
+  "miss_rate": 0.36141843971631205,
+  "high_crit_miss_rate": 0.36927536231884056,
+  "p99_ms": 45.693094751165034,
+  "measured_util": 0.8743505046950956,
+  "mean_batch": 2.5308411214953273,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 1,
+  "miss_rate": 0.360709219858156,
+  "high_crit_miss_rate": 0.3685507246376812,
+  "p99_ms": 45.69837666206933,
+  "measured_util": 0.8762670343147387,
+  "mean_batch": 2.5260441107461284,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "multi_agent_cell",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 2.047244094488189,
+  "seed": 2,
+  "miss_rate": 0.3659574468085106,
+  "high_crit_miss_rate": 0.3739130434782609,
+  "p99_ms": 46.03491066438695,
+  "measured_util": 0.877482204021682,
+  "mean_batch": 2.522577610536218,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ }
+]

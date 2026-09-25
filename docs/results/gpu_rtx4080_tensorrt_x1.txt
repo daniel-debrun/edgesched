@@ -1,0 +1,131 @@
+NVIDIA GeForce RTX 4080, 580.178.04, 2745 MHz, 50
+demo pid 1900408
+[09/25/2026-18:13:22] [TRT] [W] WARNING The logger passed into createInferRuntime differs from one already registered for an existing builder, runtime, or refitter. So the current new logger is ignored, and TensorRT will use the existing one which is returned by nvinfer1::getLogger() instead.
+[09/25/2026-18:13:22] [TRT] [W] WARNING The logger passed into createInferRuntime differs from one already registered for an existing builder, runtime, or refitter. So the current new logger is ignored, and TensorRT will use the existing one which is returned by nvinfer1::getLogger() instead.
+profile cnn      b=1: 2.80 ms  b=2: 5.50 ms  b=4: 23.38 ms
+profile actor    b=1: 0.06 ms  b=2: 0.06 ms  b=4: 0.06 ms  b=8: 0.07 ms
+profile planner  b=1: 8.99 ms
+nominal utilization from measured p50 profiles: 0.23
+
+rep 0 naive: miss 0.00%
+rep 0 round_robin: miss 0.25%
+rep 0 fifo: miss 0.38%
+rep 0 edf: miss 0.43%
+rep 0 edf_batch: miss 0.53%
+rep 0 edf_batch_same_deadline: miss 0.00%
+rep 1 naive: miss 0.43%
+rep 1 round_robin: miss 0.35%
+rep 1 fifo: miss 0.15%
+rep 1 edf: miss 0.00%
+rep 1 edf_batch: miss 0.00%
+rep 1 edf_batch_same_deadline: miss 0.35%
+rep 2 naive: miss 0.00%
+rep 2 round_robin: miss 1.31%
+rep 2 fifo: miss 0.50%
+rep 2 edf: miss 0.38%
+rep 2 edf_batch: miss 0.40%
+rep 2 edf_batch_same_deadline: miss 0.40%
+
+load average (1/5/15 min) before (3.18798828125, 4.08154296875, 3.162109375), after (0.8994140625, 2.13330078125, 2.578125)
+
+policy: naive
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       0    0.00     2.25    12.91    13.98     -4.7   1.00
+agent1                  750       0    0.00     2.24    12.88    14.15     -5.0   1.00
+agent2                  750       0    0.00     2.22    12.87    14.15     -5.1   1.00
+agent3                  750       0    0.00     2.33    12.85    14.13     -4.0   1.00
+cam_front               450       0    0.00     4.85     6.05     6.27    -26.6   1.00
+cam_rear                450       0    0.00     4.79    12.09    13.35    -18.3   1.00
+planner                  75       0    0.00    13.97    14.96    15.88   -183.3   1.00
+--------------------------------------------------------------------------------------
+ALL                    3975       0    0.00     2.91    13.09    14.25     -4.0   1.00
+utilization 0.434  throughput 265.0 req/s  dispatches 3975  mean batch 1.00
+
+policy: round_robin
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       3    0.40     0.68     8.38    10.80     -3.9   1.00
+agent1                  750       3    0.40     0.75     8.56    10.92     -3.8   1.00
+agent2                  750       3    0.40     0.79     8.74    11.02     -3.6   1.00
+agent3                  750       3    0.40     0.93     8.89    11.24     -3.4   1.00
+cam_front               449       0    0.00     3.33     5.86     6.19     -6.9   1.00
+cam_rear                450       2    0.44     3.38     6.23    13.40     11.8   1.00
+planner                  75       0    0.00    10.20    17.67    17.91   -182.0   1.00
+--------------------------------------------------------------------------------------
+ALL                    3974      14    0.35     1.09     8.76    13.28     11.8   1.00
+utilization 0.283  throughput 264.1 req/s  dispatches 3962  mean batch 1.00
+
+policy: fifo
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       3    0.40     0.82     8.61     8.92    -10.8   1.00
+agent1                  750       3    0.40     0.81     8.68     8.89    -10.7   1.00
+agent2                  750       3    0.40     0.78     8.60     8.90    -10.7   1.00
+agent3                  750       3    0.40     0.86     8.67     8.93    -10.6   1.00
+cam_front               449       1    0.22     3.36     3.58     4.19    -23.4   1.00
+cam_rear                450       2    0.44     3.44     6.02     6.28    -26.4   1.00
+planner                  75       0    0.00    10.24    10.47    26.07   -130.6   1.00
+--------------------------------------------------------------------------------------
+ALL                    3974      15    0.38     1.06     8.68    10.22    -10.6   1.00
+utilization 0.269  throughput 263.9 req/s  dispatches 3960  mean batch 1.00
+
+policy: edf
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       3    0.40     1.15     8.07    12.47     -7.0   1.00
+agent1                  750       3    0.40     1.13     8.10    12.56     -6.0   1.00
+agent2                  750       3    0.40     1.04     8.08    12.67     36.1   1.00
+agent3                  750       2    0.27     1.17     8.20    12.50     -6.2   1.00
+cam_front               449       2    0.45     3.16     5.44     6.31    -25.5   1.00
+cam_rear                450       2    0.44     3.26     7.58    10.14    -21.8   1.00
+planner                  75       0    0.00     9.68    14.95    16.21   -183.6   1.00
+--------------------------------------------------------------------------------------
+ALL                    3974      15    0.38     2.19     8.47    12.84     36.1   1.00
+utilization 0.292  throughput 264.0 req/s  dispatches 3961  mean batch 1.00
+
+policy: edf_batch
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       3    0.40     0.64     8.00     8.56     -9.8   3.46
+agent1                  750       3    0.40     0.63     8.00     8.56     -9.8   3.50
+agent2                  750       3    0.40     0.64     8.00     8.56     -9.8   3.42
+agent3                  750       3    0.40     0.66     8.00     8.56     -9.8   3.47
+cam_front               449       2    0.45     3.14     3.53     4.82    -27.8   1.00
+cam_rear                450       2    0.44     3.17     5.16     5.84    -25.5   1.00
+planner                  75       0    0.00     9.67    10.42    13.36   -182.4   1.00
+--------------------------------------------------------------------------------------
+ALL                    3974      16    0.40     0.97     8.05     9.68     -9.8   2.86
+utilization 0.238  throughput 263.9 req/s  dispatches 1955  mean batch 2.03
+
+policy: edf_batch_same_deadline
+stream             released  missed   miss%    p50ms    p95ms    p99ms  maxlate  batch
+--------------------------------------------------------------------------------------
+agent0                  750       3    0.40     1.35    12.14    12.89     -6.9   3.37
+agent1                  750       3    0.40     1.29    12.14    12.89     -6.9   3.42
+agent2                  750       3    0.40     1.34    12.14    12.89     -6.9   3.42
+agent3                  750       3    0.40     1.36    12.14    12.89     -6.9   3.39
+cam_front               449       0    0.00     4.90     5.58     6.18     -7.9   1.00
+cam_rear                450       2    0.44     4.94     9.77    11.29     11.1   1.00
+planner                  75       0    0.00    14.36    16.37    16.85   -182.6   1.00
+--------------------------------------------------------------------------------------
+ALL                    3974      14    0.35     2.06    12.39    14.36     11.1   2.81
+utilization 0.364  throughput 264.1 req/s  dispatches 1993  mean batch 1.99
+
+median over 3 interleaved reps of 15 s each
+mode                        miss%  hi-crit miss%  agent p99 ms  cam p99 ms   util  batch
+naive                        0.00           0.00         14.14       11.68   0.29   1.00
+round_robin                  0.35           0.36         16.88       14.05   0.33   1.00
+fifo                         0.38           0.38         13.24       10.33   0.32   1.00
+edf                          0.38           0.38         12.67       10.14   0.29   1.00
+edf_batch                    0.40           0.41          8.75        6.12   0.26   2.03
+edf_batch_same_deadline      0.35           0.36          8.80        6.38   0.26   2.02
+
+dispatch latency under contention vs profile C(b), all modes and reps
+model      b   C(b) ms   p50 ms   p99 ms   max ms      n
+actor      1     0.063    0.174    0.952   51.869  36898
+actor      2     0.063    0.359    1.172    2.366    984
+actor      3     0.064    0.312    0.964    2.070   1003
+actor      4     0.064    0.215    0.681    0.916   2986
+cnn        1     2.799    3.215    6.273   44.660  16164
+planner    1     8.994    9.869   15.186   66.966   1350

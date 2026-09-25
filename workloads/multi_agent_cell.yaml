@@ -1,0 +1,45 @@
+# Multi-agent robot cell: one perception CNN, four MAPPO-style actor MLPs with
+# shared weights (parameter sharing, so their requests can be batched), and a
+# slow planner, all on one accelerator. The actors are stepped by one environment
+# tick, so they form a release-aligned group (zero jitter between them) that
+# same-deadline batching can serve.
+#
+# ILLUSTRATIVE NUMBERS. The latency profiles below are plausible magnitudes for a
+# small CNN / MLP on a Jetson-class GPU (fixed kernel-launch overhead dominating
+# per-sample cost). They are NOT measurements. To use measured numbers, replace a
+# profile with {type: json, path: ../profiles/<model>.json} produced by
+# `edgesched profile` or scripts/jetson_profile.sh.
+name: multi_agent_cell
+device: illustrative-jetson-class-gpu
+
+models:
+  perception_cnn:
+    max_batch: 4
+    batchable: true
+    profile: {type: linear, a_ms: 7.0, c_ms: 2.5}     # illustrative
+    noise: {sigma: 0.06, tail_prob: 0.005, tail_scale: 2.0}
+  actor_mlp:
+    max_batch: 8
+    batchable: true
+    profile: {type: linear, a_ms: 1.2, c_ms: 0.25}    # illustrative
+    noise: {sigma: 0.05, tail_prob: 0.005, tail_scale: 2.0}
+  planner:
+    max_batch: 1
+    batchable: false
+    profile: {type: linear, a_ms: 12.0}               # illustrative
+    noise: {sigma: 0.08, tail_prob: 0.01, tail_scale: 1.5}
+
+streams:
+  - {name: camera, model: perception_cnn, rate_hz: 30, jitter_ms: 2, criticality: high}
+  - {name: agent0, model: actor_mlp, group: actors, rate_hz: 50, deadline_ms: 20, phase_ms: 5, criticality: high}
+  - {name: agent1, model: actor_mlp, group: actors, rate_hz: 50, deadline_ms: 20, phase_ms: 5, criticality: high}
+  - {name: agent2, model: actor_mlp, group: actors, rate_hz: 50, deadline_ms: 20, phase_ms: 5, criticality: high}
+  - {name: agent3, model: actor_mlp, group: actors, rate_hz: 50, deadline_ms: 20, phase_ms: 5, criticality: high}
+  - {name: planner, model: planner, rate_hz: 5, deadline_ms: 200, phase_ms: 3, criticality: low}
+
+sim: {duration_s: 30, late_policy: drop, safety_factor: 1.0}
+
+policies:
+  dynamic_batch: {max_queue_delay_ms: 2, preferred_batch_sizes: {actor_mlp: [4]}}
+  edf_batch: {lookahead: 1}
+  edf_batch_same_deadline: {}

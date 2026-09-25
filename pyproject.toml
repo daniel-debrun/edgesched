@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "edgesched"
+version = "0.1.0"
+description = "Deadline-aware inference scheduling for multiple models sharing one edge accelerator"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Daniel De Brun" }]
+requires-python = ">=3.10"
+keywords = ["scheduling", "real-time", "inference", "edf", "batching", "robotics", "jetson"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+onnx = ["onnxruntime>=1.16", "numpy>=1.23"]
+plot = ["matplotlib>=3.6"]
+dev = ["pytest>=7.4", "ruff>=0.5", "numpy>=1.23", "matplotlib>=3.6"]
+
+[project.scripts]
+edgesched = "edgesched.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/daniel-debrun/edgesched"
+Issues = "https://github.com/daniel-debrun/edgesched/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/edgesched"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["torch: requires PyTorch"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF012", "B905"]

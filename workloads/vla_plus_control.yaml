@@ -1,0 +1,36 @@
+# One large, slow vision-language-action model plus three fast control policies
+# (two arms and a mobile base) sharing one accelerator.
+#
+# ILLUSTRATIVE NUMBERS, not measurements. The VLA figure is in the range reported
+# for small VLAs on embedded GPUs; the control MLPs are sub-millisecond-class.
+# The point of this workload is structural: a single non-preemptive VLA call is
+# far longer than a control deadline.
+name: vla_plus_control
+device: illustrative-jetson-class-gpu
+
+models:
+  vla:
+    max_batch: 1
+    batchable: false
+    profile: {type: linear, a_ms: 60.0}               # illustrative
+    noise: {sigma: 0.08, tail_prob: 0.01, tail_scale: 1.5}
+  arm_left_policy:
+    max_batch: 1
+    profile: {type: linear, a_ms: 0.9}                # illustrative
+    noise: {sigma: 0.05}
+  arm_right_policy:
+    max_batch: 1
+    profile: {type: linear, a_ms: 0.9}                # illustrative
+    noise: {sigma: 0.05}
+  base_policy:
+    max_batch: 1
+    profile: {type: linear, a_ms: 0.6}                # illustrative
+    noise: {sigma: 0.05}
+
+streams:
+  - {name: vla, model: vla, rate_hz: 2, deadline_ms: 500, criticality: low}
+  - {name: arm_left, model: arm_left_policy, rate_hz: 100, deadline_ms: 10, jitter_ms: 0.5, criticality: high}
+  - {name: arm_right, model: arm_right_policy, rate_hz: 100, deadline_ms: 10, jitter_ms: 0.5, criticality: high}
+  - {name: base, model: base_policy, rate_hz: 100, deadline_ms: 10, phase_ms: 3, jitter_ms: 0.5, criticality: high}
+
+sim: {duration_s: 30, late_policy: drop, safety_factor: 1.0}

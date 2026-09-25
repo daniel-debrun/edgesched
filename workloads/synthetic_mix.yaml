@@ -1,0 +1,25 @@
+# Synthetic mix of ten streams over five models with periodic and sporadic
+# arrivals. Numbers are arbitrary; used for stress tests and simulator timing.
+name: synthetic_mix
+device: synthetic
+
+models:
+  detector: {max_batch: 4, batchable: true, profile: {type: linear, a_ms: 6.0, c_ms: 2.0}, noise: {sigma: 0.1, tail_prob: 0.01, tail_scale: 2.0}}
+  depth: {max_batch: 2, batchable: true, profile: {type: table, points_ms: {1: 5.0, 2: 7.5}}, noise: {sigma: 0.1}}
+  policy_mlp: {max_batch: 8, batchable: true, profile: {type: linear, a_ms: 0.8, c_ms: 0.2}, noise: {sigma: 0.05}}
+  tracker: {max_batch: 1, profile: {type: linear, a_ms: 2.0}, noise: {sigma: 0.1}}
+  mapper: {max_batch: 1, profile: {type: linear, a_ms: 15.0}, noise: {sigma: 0.15, tail_prob: 0.02, tail_scale: 2.0}}
+
+streams:
+  - {name: cam_left, model: detector, rate_hz: 20, jitter_ms: 3}
+  - {name: cam_right, model: detector, rate_hz: 20, jitter_ms: 3, phase_ms: 1}
+  - {name: depth, model: depth, rate_hz: 15, jitter_ms: 2, phase_ms: 4}
+  - {name: pi0, model: policy_mlp, group: pis, rate_hz: 50, deadline_ms: 15, criticality: high}
+  - {name: pi1, model: policy_mlp, group: pis, rate_hz: 50, deadline_ms: 15, criticality: high}
+  - {name: pi2, model: policy_mlp, group: pis, rate_hz: 50, deadline_ms: 15, criticality: high}
+  - {name: pi3, model: policy_mlp, rate_hz: 25, deadline_ms: 30, criticality: high}
+  - {name: track, model: tracker, rate_hz: 30, deadline_ms: 20, arrival: sporadic, sporadic_mean_extra_ms: 10}
+  - {name: map, model: mapper, rate_hz: 2, deadline_ms: 400}
+  - {name: events, model: tracker, rate_hz: 10, deadline_ms: 50, arrival: sporadic, sporadic_mean_extra_ms: 100}
+
+sim: {duration_s: 60, late_policy: drop}

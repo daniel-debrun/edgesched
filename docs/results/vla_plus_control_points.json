@@ -1,0 +1,3929 @@
+[
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.09216335540838852,
+  "high_crit_miss_rate": 0.09277777777777778,
+  "p99_ms": 9.34169819641393,
+  "measured_util": 0.2830633820706485,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.09094922737306843,
+  "high_crit_miss_rate": 0.09155555555555556,
+  "p99_ms": 9.422835972050445,
+  "measured_util": 0.28330076228879997,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09083885209713025,
+  "high_crit_miss_rate": 0.09144444444444444,
+  "p99_ms": 9.142248897615236,
+  "measured_util": 0.28272770473400405,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.0923841059602649,
+  "high_crit_miss_rate": 0.093,
+  "p99_ms": 9.376596016181189,
+  "measured_util": 0.28491893208320906,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.08940397350993377,
+  "high_crit_miss_rate": 0.09,
+  "p99_ms": 9.326071477135622,
+  "measured_util": 0.28308815248403824,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09260485651214129,
+  "high_crit_miss_rate": 0.09322222222222222,
+  "p99_ms": 9.019701781968484,
+  "measured_util": 0.2847446993315184,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.09216335540838852,
+  "high_crit_miss_rate": 0.09277777777777778,
+  "p99_ms": 9.446905940508561,
+  "measured_util": 0.2830647229913648,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.09094922737306843,
+  "high_crit_miss_rate": 0.09155555555555556,
+  "p99_ms": 9.422835972050445,
+  "measured_util": 0.28330178863602745,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09083885209713025,
+  "high_crit_miss_rate": 0.09144444444444444,
+  "p99_ms": 9.464414432098774,
+  "measured_util": 0.2827288330043401,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.0923841059602649,
+  "high_crit_miss_rate": 0.093,
+  "p99_ms": 9.376596016181189,
+  "measured_util": 0.28491893208320906,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.08940397350993377,
+  "high_crit_miss_rate": 0.09,
+  "p99_ms": 9.326071477135622,
+  "measured_util": 0.28308815248403824,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09260485651214129,
+  "high_crit_miss_rate": 0.09322222222222222,
+  "p99_ms": 9.019701781968484,
+  "measured_util": 0.2847446993315184,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.0923841059602649,
+  "high_crit_miss_rate": 0.093,
+  "p99_ms": 9.376596016181189,
+  "measured_util": 0.28491893208320906,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.08940397350993377,
+  "high_crit_miss_rate": 0.09,
+  "p99_ms": 9.326071477135622,
+  "measured_util": 0.28308815248403824,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09260485651214129,
+  "high_crit_miss_rate": 0.09322222222222222,
+  "p99_ms": 9.019701781968484,
+  "measured_util": 0.2847446993315184,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.0923841059602649,
+  "high_crit_miss_rate": 0.093,
+  "p99_ms": 9.376596016181189,
+  "measured_util": 0.28491893208320906,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.08940397350993377,
+  "high_crit_miss_rate": 0.09,
+  "p99_ms": 9.326071477135622,
+  "measured_util": 0.28308815248403824,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09260485651214129,
+  "high_crit_miss_rate": 0.09322222222222222,
+  "p99_ms": 9.019701781968484,
+  "measured_util": 0.2847446993315184,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 0,
+  "miss_rate": 0.0923841059602649,
+  "high_crit_miss_rate": 0.093,
+  "p99_ms": 9.376596016181189,
+  "measured_util": 0.28491893208320906,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 1,
+  "miss_rate": 0.08940397350993377,
+  "high_crit_miss_rate": 0.09,
+  "p99_ms": 9.326071477135622,
+  "measured_util": 0.28308815248403824,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.3,
+  "scale": 0.8333333333333333,
+  "seed": 2,
+  "miss_rate": 0.09260485651214129,
+  "high_crit_miss_rate": 0.09322222222222222,
+  "p99_ms": 9.019701781968484,
+  "measured_util": 0.2847446993315184,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.12417218543046357,
+  "high_crit_miss_rate": 0.125,
+  "p99_ms": 9.51154286256155,
+  "measured_util": 0.36764469248930287,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.12468802512823,
+  "measured_util": 0.36824725198375236,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.12483443708609271,
+  "high_crit_miss_rate": 0.12566666666666668,
+  "p99_ms": 9.305263336704307,
+  "measured_util": 0.3679568919825489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.1262693156732892,
+  "high_crit_miss_rate": 0.12711111111111112,
+  "p99_ms": 9.631282968025479,
+  "measured_util": 0.3706083529788779,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12295805739514348,
+  "high_crit_miss_rate": 0.12377777777777778,
+  "p99_ms": 9.339191184837015,
+  "measured_util": 0.36829017701741995,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.269791949888814,
+  "measured_util": 0.36917565501310734,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.12494481236203091,
+  "high_crit_miss_rate": 0.12577777777777777,
+  "p99_ms": 9.840567992672858,
+  "measured_util": 0.36764695791537505,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12549668874172185,
+  "high_crit_miss_rate": 0.12633333333333333,
+  "p99_ms": 9.588815665697236,
+  "measured_util": 0.3682466119953199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.12571743929359824,
+  "high_crit_miss_rate": 0.12655555555555556,
+  "p99_ms": 9.67037578798544,
+  "measured_util": 0.3679531782881404,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.1262693156732892,
+  "high_crit_miss_rate": 0.12711111111111112,
+  "p99_ms": 9.631282968025479,
+  "measured_util": 0.3706083529788779,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12295805739514348,
+  "high_crit_miss_rate": 0.12377777777777778,
+  "p99_ms": 9.339191184837015,
+  "measured_util": 0.36829017701741995,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.269791949888814,
+  "measured_util": 0.36917565501310734,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.1262693156732892,
+  "high_crit_miss_rate": 0.12711111111111112,
+  "p99_ms": 9.631282968025479,
+  "measured_util": 0.3706083529788779,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12295805739514348,
+  "high_crit_miss_rate": 0.12377777777777778,
+  "p99_ms": 9.339191184837015,
+  "measured_util": 0.36829017701741995,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.269791949888814,
+  "measured_util": 0.36917565501310734,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.1262693156732892,
+  "high_crit_miss_rate": 0.12711111111111112,
+  "p99_ms": 9.631282968025479,
+  "measured_util": 0.3706083529788779,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12295805739514348,
+  "high_crit_miss_rate": 0.12377777777777778,
+  "p99_ms": 9.339191184837015,
+  "measured_util": 0.36829017701741995,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.269791949888814,
+  "measured_util": 0.36917565501310734,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 0,
+  "miss_rate": 0.1262693156732892,
+  "high_crit_miss_rate": 0.12711111111111112,
+  "p99_ms": 9.631282968025479,
+  "measured_util": 0.3706083529788779,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 1,
+  "miss_rate": 0.12295805739514348,
+  "high_crit_miss_rate": 0.12377777777777778,
+  "p99_ms": 9.339191184837015,
+  "measured_util": 0.36829017701741995,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.4,
+  "scale": 1.111111111111111,
+  "seed": 2,
+  "miss_rate": 0.1250551876379691,
+  "high_crit_miss_rate": 0.12588888888888888,
+  "p99_ms": 9.269791949888814,
+  "measured_util": 0.36917565501310734,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16015452538631347,
+  "high_crit_miss_rate": 0.1612222222222222,
+  "p99_ms": 9.579637565500216,
+  "measured_util": 0.44896373635628717,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16346578366445916,
+  "high_crit_miss_rate": 0.16455555555555557,
+  "p99_ms": 9.496425578682317,
+  "measured_util": 0.4524663846119283,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.15706401766004416,
+  "high_crit_miss_rate": 0.15811111111111112,
+  "p99_ms": 9.432020509949846,
+  "measured_util": 0.44754901010195086,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16026490066225166,
+  "high_crit_miss_rate": 0.16133333333333333,
+  "p99_ms": 10.048506475025569,
+  "measured_util": 0.44989462931408625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16280353200883002,
+  "high_crit_miss_rate": 0.1638888888888889,
+  "p99_ms": 10.092543852977563,
+  "measured_util": 0.45217041897678883,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1573951434878587,
+  "high_crit_miss_rate": 0.15844444444444444,
+  "p99_ms": 9.699631879102077,
+  "measured_util": 0.4487186481706409,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.1597130242825607,
+  "high_crit_miss_rate": 0.16077777777777777,
+  "p99_ms": 9.54919297166015,
+  "measured_util": 0.4481447298353788,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16423841059602648,
+  "high_crit_miss_rate": 0.16533333333333333,
+  "p99_ms": 10.23857389858733,
+  "measured_util": 0.4504926997126339,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1597130242825607,
+  "high_crit_miss_rate": 0.16077777777777777,
+  "p99_ms": 10.3362200841085,
+  "measured_util": 0.4468927527676304,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16026490066225166,
+  "high_crit_miss_rate": 0.16133333333333333,
+  "p99_ms": 10.048506475025569,
+  "measured_util": 0.44989462931408625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16280353200883002,
+  "high_crit_miss_rate": 0.1638888888888889,
+  "p99_ms": 10.092543852977563,
+  "measured_util": 0.45217041897678883,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1573951434878587,
+  "high_crit_miss_rate": 0.15844444444444444,
+  "p99_ms": 9.699631879102077,
+  "measured_util": 0.4487186481706409,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16026490066225166,
+  "high_crit_miss_rate": 0.16133333333333333,
+  "p99_ms": 10.048506475025569,
+  "measured_util": 0.44989462931408625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16280353200883002,
+  "high_crit_miss_rate": 0.1638888888888889,
+  "p99_ms": 10.092543852977563,
+  "measured_util": 0.45217041897678883,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1573951434878587,
+  "high_crit_miss_rate": 0.15844444444444444,
+  "p99_ms": 9.699631879102077,
+  "measured_util": 0.4487186481706409,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16026490066225166,
+  "high_crit_miss_rate": 0.16133333333333333,
+  "p99_ms": 10.048506475025569,
+  "measured_util": 0.44989462931408625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16280353200883002,
+  "high_crit_miss_rate": 0.1638888888888889,
+  "p99_ms": 10.092543852977563,
+  "measured_util": 0.45217041897678883,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1573951434878587,
+  "high_crit_miss_rate": 0.15844444444444444,
+  "p99_ms": 9.699631879102077,
+  "measured_util": 0.4487186481706409,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 0,
+  "miss_rate": 0.16026490066225166,
+  "high_crit_miss_rate": 0.16133333333333333,
+  "p99_ms": 10.048506475025569,
+  "measured_util": 0.44989462931408625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 1,
+  "miss_rate": 0.16280353200883002,
+  "high_crit_miss_rate": 0.1638888888888889,
+  "p99_ms": 10.092543852977563,
+  "measured_util": 0.45217041897678883,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.5,
+  "scale": 1.3888888888888886,
+  "seed": 2,
+  "miss_rate": 0.1573951434878587,
+  "high_crit_miss_rate": 0.15844444444444444,
+  "p99_ms": 9.699631879102077,
+  "measured_util": 0.4487186481706409,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19492273730684326,
+  "high_crit_miss_rate": 0.19622222222222221,
+  "p99_ms": 10.462662788819117,
+  "measured_util": 0.525862001298566,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19017660044150111,
+  "high_crit_miss_rate": 0.19144444444444444,
+  "p99_ms": 9.793989956273563,
+  "measured_util": 0.5234847166841506,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19326710816777043,
+  "high_crit_miss_rate": 0.19455555555555556,
+  "p99_ms": 10.509071256865997,
+  "measured_util": 0.5254185271644751,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19039735099337748,
+  "high_crit_miss_rate": 0.19166666666666668,
+  "p99_ms": 10.293028506103667,
+  "measured_util": 0.5246404689937877,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19161147902869757,
+  "high_crit_miss_rate": 0.1928888888888889,
+  "p99_ms": 10.525733270841906,
+  "measured_util": 0.5254016809691467,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19370860927152317,
+  "high_crit_miss_rate": 0.195,
+  "p99_ms": 10.502149779043393,
+  "measured_util": 0.5273525633203834,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19403973509933775,
+  "high_crit_miss_rate": 0.19533333333333333,
+  "p99_ms": 10.541625501833138,
+  "measured_util": 0.5231617936051065,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.1934878587196468,
+  "high_crit_miss_rate": 0.19477777777777777,
+  "p99_ms": 10.20949304660368,
+  "measured_util": 0.5234126871298066,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.1977924944812362,
+  "high_crit_miss_rate": 0.1991111111111111,
+  "p99_ms": 9.620524272356075,
+  "measured_util": 0.5259649484162399,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19039735099337748,
+  "high_crit_miss_rate": 0.19166666666666668,
+  "p99_ms": 10.293028506103667,
+  "measured_util": 0.5246404689937877,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19161147902869757,
+  "high_crit_miss_rate": 0.1928888888888889,
+  "p99_ms": 10.525733270841906,
+  "measured_util": 0.5254016809691467,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19370860927152317,
+  "high_crit_miss_rate": 0.195,
+  "p99_ms": 10.502149779043393,
+  "measured_util": 0.5273525633203834,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19039735099337748,
+  "high_crit_miss_rate": 0.19166666666666668,
+  "p99_ms": 10.293028506103667,
+  "measured_util": 0.5246404689937877,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19161147902869757,
+  "high_crit_miss_rate": 0.1928888888888889,
+  "p99_ms": 10.525733270841906,
+  "measured_util": 0.5254016809691467,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19370860927152317,
+  "high_crit_miss_rate": 0.195,
+  "p99_ms": 10.502149779043393,
+  "measured_util": 0.5273525633203834,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19039735099337748,
+  "high_crit_miss_rate": 0.19166666666666668,
+  "p99_ms": 10.293028506103667,
+  "measured_util": 0.5246404689937877,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19161147902869757,
+  "high_crit_miss_rate": 0.1928888888888889,
+  "p99_ms": 10.525733270841906,
+  "measured_util": 0.5254016809691467,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19370860927152317,
+  "high_crit_miss_rate": 0.195,
+  "p99_ms": 10.502149779043393,
+  "measured_util": 0.5273525633203834,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 0,
+  "miss_rate": 0.19039735099337748,
+  "high_crit_miss_rate": 0.19166666666666668,
+  "p99_ms": 10.293028506103667,
+  "measured_util": 0.5246404689937877,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 1,
+  "miss_rate": 0.19161147902869757,
+  "high_crit_miss_rate": 0.1928888888888889,
+  "p99_ms": 10.525733270841906,
+  "measured_util": 0.5254016809691467,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.6,
+  "scale": 1.6666666666666665,
+  "seed": 2,
+  "miss_rate": 0.19370860927152317,
+  "high_crit_miss_rate": 0.195,
+  "p99_ms": 10.502149779043393,
+  "measured_util": 0.5273525633203834,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2281456953642384,
+  "high_crit_miss_rate": 0.22966666666666666,
+  "p99_ms": 11.067450948082993,
+  "measured_util": 0.5971893907516806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.22593818984547462,
+  "high_crit_miss_rate": 0.22744444444444445,
+  "p99_ms": 10.655976198195122,
+  "measured_util": 0.5956942187047587,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.22649006622516557,
+  "high_crit_miss_rate": 0.228,
+  "p99_ms": 10.644042741617643,
+  "measured_util": 0.5948335966905511,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2251655629139073,
+  "high_crit_miss_rate": 0.22666666666666666,
+  "p99_ms": 10.672281258611395,
+  "measured_util": 0.5968308286458553,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2282560706401766,
+  "high_crit_miss_rate": 0.22977777777777778,
+  "p99_ms": 10.627088033081947,
+  "measured_util": 0.5984209683438854,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2239514348785872,
+  "high_crit_miss_rate": 0.22544444444444445,
+  "p99_ms": 10.698024051112146,
+  "measured_util": 0.5958236599877167,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.22450331125827813,
+  "high_crit_miss_rate": 0.226,
+  "p99_ms": 10.612155679448609,
+  "measured_util": 0.5929488358527275,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2294701986754967,
+  "high_crit_miss_rate": 0.231,
+  "p99_ms": 10.408628950968923,
+  "measured_util": 0.596821259289206,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2269315673289183,
+  "high_crit_miss_rate": 0.22844444444444445,
+  "p99_ms": 10.512798807332011,
+  "measured_util": 0.5944304827858516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2251655629139073,
+  "high_crit_miss_rate": 0.22666666666666666,
+  "p99_ms": 10.672281258611395,
+  "measured_util": 0.5968308286458553,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2282560706401766,
+  "high_crit_miss_rate": 0.22977777777777778,
+  "p99_ms": 10.627088033081947,
+  "measured_util": 0.5984209683438854,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2239514348785872,
+  "high_crit_miss_rate": 0.22544444444444445,
+  "p99_ms": 10.698024051112146,
+  "measured_util": 0.5958236599877167,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2251655629139073,
+  "high_crit_miss_rate": 0.22666666666666666,
+  "p99_ms": 10.672281258611395,
+  "measured_util": 0.5968308286458553,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2282560706401766,
+  "high_crit_miss_rate": 0.22977777777777778,
+  "p99_ms": 10.627088033081947,
+  "measured_util": 0.5984209683438854,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2239514348785872,
+  "high_crit_miss_rate": 0.22544444444444445,
+  "p99_ms": 10.698024051112146,
+  "measured_util": 0.5958236599877167,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2251655629139073,
+  "high_crit_miss_rate": 0.22666666666666666,
+  "p99_ms": 10.672281258611395,
+  "measured_util": 0.5968308286458553,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2282560706401766,
+  "high_crit_miss_rate": 0.22977777777777778,
+  "p99_ms": 10.627088033081947,
+  "measured_util": 0.5984209683438854,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2239514348785872,
+  "high_crit_miss_rate": 0.22544444444444445,
+  "p99_ms": 10.698024051112146,
+  "measured_util": 0.5958236599877167,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 0,
+  "miss_rate": 0.2251655629139073,
+  "high_crit_miss_rate": 0.22666666666666666,
+  "p99_ms": 10.672281258611395,
+  "measured_util": 0.5968308286458553,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 1,
+  "miss_rate": 0.2282560706401766,
+  "high_crit_miss_rate": 0.22977777777777778,
+  "p99_ms": 10.627088033081947,
+  "measured_util": 0.5984209683438854,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.7,
+  "scale": 1.9444444444444442,
+  "seed": 2,
+  "miss_rate": 0.2239514348785872,
+  "high_crit_miss_rate": 0.22544444444444445,
+  "p99_ms": 10.698024051112146,
+  "measured_util": 0.5958236599877167,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.2635761589403974,
+  "high_crit_miss_rate": 0.2653333333333333,
+  "p99_ms": 11.176010798745745,
+  "measured_util": 0.6637310420738658,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2597130242825607,
+  "high_crit_miss_rate": 0.2614444444444444,
+  "p99_ms": 11.15080144726552,
+  "measured_util": 0.6619340219404308,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.2618101545253863,
+  "high_crit_miss_rate": 0.26355555555555554,
+  "p99_ms": 11.14030611603569,
+  "measured_util": 0.6634877773125931,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.25794701986754964,
+  "high_crit_miss_rate": 0.25966666666666666,
+  "p99_ms": 10.785992900214888,
+  "measured_util": 0.6633183024014542,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2586092715231788,
+  "high_crit_miss_rate": 0.26033333333333336,
+  "p99_ms": 10.892252932207747,
+  "measured_util": 0.6633966630652582,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25695364238410595,
+  "high_crit_miss_rate": 0.25866666666666666,
+  "p99_ms": 10.989602453434992,
+  "measured_util": 0.66292163636252,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.2588300220750552,
+  "high_crit_miss_rate": 0.26055555555555554,
+  "p99_ms": 10.9720660742565,
+  "measured_util": 0.6608366207490878,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2620309050772627,
+  "high_crit_miss_rate": 0.2637777777777778,
+  "p99_ms": 11.225069662364534,
+  "measured_util": 0.6622496141738771,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25518763796909494,
+  "high_crit_miss_rate": 0.2568888888888889,
+  "p99_ms": 11.21780496221057,
+  "measured_util": 0.6594630524109538,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.25794701986754964,
+  "high_crit_miss_rate": 0.25966666666666666,
+  "p99_ms": 10.785992900214888,
+  "measured_util": 0.6633183024014542,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2586092715231788,
+  "high_crit_miss_rate": 0.26033333333333336,
+  "p99_ms": 10.892252932207747,
+  "measured_util": 0.6633966630652582,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25695364238410595,
+  "high_crit_miss_rate": 0.25866666666666666,
+  "p99_ms": 10.989602453434992,
+  "measured_util": 0.66292163636252,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.25794701986754964,
+  "high_crit_miss_rate": 0.25966666666666666,
+  "p99_ms": 10.785992900214888,
+  "measured_util": 0.6633183024014542,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2586092715231788,
+  "high_crit_miss_rate": 0.26033333333333336,
+  "p99_ms": 10.892252932207747,
+  "measured_util": 0.6633966630652582,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25695364238410595,
+  "high_crit_miss_rate": 0.25866666666666666,
+  "p99_ms": 10.989602453434992,
+  "measured_util": 0.66292163636252,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.25794701986754964,
+  "high_crit_miss_rate": 0.25966666666666666,
+  "p99_ms": 10.785992900214888,
+  "measured_util": 0.6633183024014542,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2586092715231788,
+  "high_crit_miss_rate": 0.26033333333333336,
+  "p99_ms": 10.892252932207747,
+  "measured_util": 0.6633966630652582,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25695364238410595,
+  "high_crit_miss_rate": 0.25866666666666666,
+  "p99_ms": 10.989602453434992,
+  "measured_util": 0.66292163636252,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 0,
+  "miss_rate": 0.25794701986754964,
+  "high_crit_miss_rate": 0.25966666666666666,
+  "p99_ms": 10.785992900214888,
+  "measured_util": 0.6633183024014542,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 1,
+  "miss_rate": 0.2586092715231788,
+  "high_crit_miss_rate": 0.26033333333333336,
+  "p99_ms": 10.892252932207747,
+  "measured_util": 0.6633966630652582,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.8,
+  "scale": 2.222222222222222,
+  "seed": 2,
+  "miss_rate": 0.25695364238410595,
+  "high_crit_miss_rate": 0.25866666666666666,
+  "p99_ms": 10.989602453434992,
+  "measured_util": 0.66292163636252,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29635761589403975,
+  "high_crit_miss_rate": 0.29833333333333334,
+  "p99_ms": 11.830663238918534,
+  "measured_util": 0.7252703978881084,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.295364238410596,
+  "high_crit_miss_rate": 0.29733333333333334,
+  "p99_ms": 11.649192946938095,
+  "measured_util": 0.7256259285029356,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.29481236203090505,
+  "high_crit_miss_rate": 0.29677777777777775,
+  "p99_ms": 11.481113219780593,
+  "measured_util": 0.7256698963998571,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29392935982339957,
+  "high_crit_miss_rate": 0.29588888888888887,
+  "p99_ms": 11.708805434536734,
+  "measured_util": 0.7267564596931417,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2922737306843267,
+  "high_crit_miss_rate": 0.2942222222222222,
+  "p99_ms": 11.435435170757977,
+  "measured_util": 0.7266368096991341,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.28874172185430463,
+  "high_crit_miss_rate": 0.2906666666666667,
+  "p99_ms": 11.510864221950413,
+  "measured_util": 0.7248302857857772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29635761589403975,
+  "high_crit_miss_rate": 0.29833333333333334,
+  "p99_ms": 11.351614052000686,
+  "measured_util": 0.7241212967235656,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2986754966887417,
+  "high_crit_miss_rate": 0.3006666666666667,
+  "p99_ms": 11.788410807373124,
+  "measured_util": 0.726101259298879,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.30419426048565124,
+  "high_crit_miss_rate": 0.30622222222222223,
+  "p99_ms": 11.542324587582083,
+  "measured_util": 0.728201694378424,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29392935982339957,
+  "high_crit_miss_rate": 0.29588888888888887,
+  "p99_ms": 11.708805434536734,
+  "measured_util": 0.7267564596931417,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2922737306843267,
+  "high_crit_miss_rate": 0.2942222222222222,
+  "p99_ms": 11.435435170757977,
+  "measured_util": 0.7266368096991341,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.28874172185430463,
+  "high_crit_miss_rate": 0.2906666666666667,
+  "p99_ms": 11.510864221950413,
+  "measured_util": 0.7248302857857772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29392935982339957,
+  "high_crit_miss_rate": 0.29588888888888887,
+  "p99_ms": 11.708805434536734,
+  "measured_util": 0.7267564596931417,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2922737306843267,
+  "high_crit_miss_rate": 0.2942222222222222,
+  "p99_ms": 11.435435170757977,
+  "measured_util": 0.7266368096991341,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.28874172185430463,
+  "high_crit_miss_rate": 0.2906666666666667,
+  "p99_ms": 11.510864221950413,
+  "measured_util": 0.7248302857857772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29392935982339957,
+  "high_crit_miss_rate": 0.29588888888888887,
+  "p99_ms": 11.708805434536734,
+  "measured_util": 0.7267564596931417,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2922737306843267,
+  "high_crit_miss_rate": 0.2942222222222222,
+  "p99_ms": 11.435435170757977,
+  "measured_util": 0.7266368096991341,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.28874172185430463,
+  "high_crit_miss_rate": 0.2906666666666667,
+  "p99_ms": 11.510864221950413,
+  "measured_util": 0.7248302857857772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 0,
+  "miss_rate": 0.29392935982339957,
+  "high_crit_miss_rate": 0.29588888888888887,
+  "p99_ms": 11.708805434536734,
+  "measured_util": 0.7267564596931417,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 1,
+  "miss_rate": 0.2922737306843267,
+  "high_crit_miss_rate": 0.2942222222222222,
+  "p99_ms": 11.435435170757977,
+  "measured_util": 0.7266368096991341,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 0.9,
+  "scale": 2.4999999999999996,
+  "seed": 2,
+  "miss_rate": 0.28874172185430463,
+  "high_crit_miss_rate": 0.2906666666666667,
+  "p99_ms": 11.510864221950413,
+  "measured_util": 0.7248302857857772,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3280353200883002,
+  "high_crit_miss_rate": 0.3302222222222222,
+  "p99_ms": 11.959966433546063,
+  "measured_util": 0.7834240777687528,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33355408388520974,
+  "high_crit_miss_rate": 0.3357777777777778,
+  "p99_ms": 12.20178650633752,
+  "measured_util": 0.7850065629905575,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.33024282560706403,
+  "high_crit_miss_rate": 0.33244444444444443,
+  "p99_ms": 12.038122948404192,
+  "measured_util": 0.784008876365086,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3337748344370861,
+  "high_crit_miss_rate": 0.336,
+  "p99_ms": 12.057276347336852,
+  "measured_util": 0.7870911654125489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33178807947019867,
+  "high_crit_miss_rate": 0.334,
+  "p99_ms": 12.313524689154626,
+  "measured_util": 0.7864207686960579,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.32748344370860927,
+  "high_crit_miss_rate": 0.32966666666666666,
+  "p99_ms": 11.871078650292011,
+  "measured_util": 0.7848938340391347,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.33598233995584986,
+  "high_crit_miss_rate": 0.3382222222222222,
+  "p99_ms": 11.992354505684636,
+  "measured_util": 0.7836727638722777,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.3346578366445916,
+  "high_crit_miss_rate": 0.3368888888888889,
+  "p99_ms": 12.395064113956218,
+  "measured_util": 0.7838930395819094,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.33068432671081677,
+  "high_crit_miss_rate": 0.3328888888888889,
+  "p99_ms": 11.797495751313962,
+  "measured_util": 0.782547252769697,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3337748344370861,
+  "high_crit_miss_rate": 0.336,
+  "p99_ms": 12.057276347336852,
+  "measured_util": 0.7870911654125489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33178807947019867,
+  "high_crit_miss_rate": 0.334,
+  "p99_ms": 12.313524689154626,
+  "measured_util": 0.7864207686960579,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.32748344370860927,
+  "high_crit_miss_rate": 0.32966666666666666,
+  "p99_ms": 11.871078650292011,
+  "measured_util": 0.7848938340391347,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3337748344370861,
+  "high_crit_miss_rate": 0.336,
+  "p99_ms": 12.057276347336852,
+  "measured_util": 0.7870911654125489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33178807947019867,
+  "high_crit_miss_rate": 0.334,
+  "p99_ms": 12.313524689154626,
+  "measured_util": 0.7864207686960579,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.32748344370860927,
+  "high_crit_miss_rate": 0.32966666666666666,
+  "p99_ms": 11.871078650292011,
+  "measured_util": 0.7848938340391347,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3337748344370861,
+  "high_crit_miss_rate": 0.336,
+  "p99_ms": 12.057276347336852,
+  "measured_util": 0.7870911654125489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33178807947019867,
+  "high_crit_miss_rate": 0.334,
+  "p99_ms": 12.313524689154626,
+  "measured_util": 0.7864207686960579,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.32748344370860927,
+  "high_crit_miss_rate": 0.32966666666666666,
+  "p99_ms": 11.871078650292011,
+  "measured_util": 0.7848938340391347,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 0,
+  "miss_rate": 0.3337748344370861,
+  "high_crit_miss_rate": 0.336,
+  "p99_ms": 12.057276347336852,
+  "measured_util": 0.7870911654125489,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 1,
+  "miss_rate": 0.33178807947019867,
+  "high_crit_miss_rate": 0.334,
+  "p99_ms": 12.313524689154626,
+  "measured_util": 0.7864207686960579,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.0,
+  "scale": 2.7777777777777772,
+  "seed": 2,
+  "miss_rate": 0.32748344370860927,
+  "high_crit_miss_rate": 0.32966666666666666,
+  "p99_ms": 11.871078650292011,
+  "measured_util": 0.7848938340391347,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3644591611479029,
+  "high_crit_miss_rate": 0.3668888888888889,
+  "p99_ms": 158.39210563270112,
+  "measured_util": 0.8369542909361646,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.36467991169977926,
+  "high_crit_miss_rate": 0.3671111111111111,
+  "p99_ms": 156.23573628660782,
+  "measured_util": 0.8367896309761391,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 161.47649145320614,
+  "measured_util": 0.8378614363405125,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3583885209713024,
+  "high_crit_miss_rate": 0.36077777777777775,
+  "p99_ms": 148.0387358944142,
+  "measured_util": 0.8376503537384618,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 157.6964892032026,
+  "measured_util": 0.8400214091800806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36357615894039735,
+  "high_crit_miss_rate": 0.366,
+  "p99_ms": 151.55473221505233,
+  "measured_util": 0.8399679084346899,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.36821192052980134,
+  "high_crit_miss_rate": 0.37066666666666664,
+  "p99_ms": 159.07414274171583,
+  "measured_util": 0.83655514658537,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3654525386313466,
+  "high_crit_miss_rate": 0.3678888888888889,
+  "p99_ms": 159.5022649625033,
+  "measured_util": 0.8364409085125022,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36677704194260485,
+  "high_crit_miss_rate": 0.36922222222222223,
+  "p99_ms": 160.40246150885008,
+  "measured_util": 0.8377536896841052,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3583885209713024,
+  "high_crit_miss_rate": 0.36077777777777775,
+  "p99_ms": 148.0387358944142,
+  "measured_util": 0.8376503537384618,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 157.6964892032026,
+  "measured_util": 0.8400214091800806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36357615894039735,
+  "high_crit_miss_rate": 0.366,
+  "p99_ms": 151.55473221505233,
+  "measured_util": 0.8399679084346899,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3583885209713024,
+  "high_crit_miss_rate": 0.36077777777777775,
+  "p99_ms": 148.0387358944142,
+  "measured_util": 0.8376503537384618,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 157.6964892032026,
+  "measured_util": 0.8400214091800806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36357615894039735,
+  "high_crit_miss_rate": 0.366,
+  "p99_ms": 151.55473221505233,
+  "measured_util": 0.8399679084346899,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3583885209713024,
+  "high_crit_miss_rate": 0.36077777777777775,
+  "p99_ms": 148.0387358944142,
+  "measured_util": 0.8376503537384618,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 157.6964892032026,
+  "measured_util": 0.8400214091800806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36357615894039735,
+  "high_crit_miss_rate": 0.366,
+  "p99_ms": 151.55473221505233,
+  "measured_util": 0.8399679084346899,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 0,
+  "miss_rate": 0.3583885209713024,
+  "high_crit_miss_rate": 0.36077777777777775,
+  "p99_ms": 148.0387358944142,
+  "measured_util": 0.8376503537384618,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 1,
+  "miss_rate": 0.3658940397350993,
+  "high_crit_miss_rate": 0.36833333333333335,
+  "p99_ms": 157.6964892032026,
+  "measured_util": 0.8400214091800806,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.1,
+  "scale": 3.0555555555555554,
+  "seed": 2,
+  "miss_rate": 0.36357615894039735,
+  "high_crit_miss_rate": 0.366,
+  "p99_ms": 151.55473221505233,
+  "measured_util": 0.8399679084346899,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.3923841059602649,
+  "high_crit_miss_rate": 0.395,
+  "p99_ms": 173.56535739939707,
+  "measured_util": 0.8841618157689777,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.40717439293598234,
+  "high_crit_miss_rate": 0.4098888888888889,
+  "p99_ms": 183.61529305386193,
+  "measured_util": 0.8888089548056317,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4022075055187638,
+  "high_crit_miss_rate": 0.4048888888888889,
+  "p99_ms": 179.69185332833305,
+  "measured_util": 0.887346178328659,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.39867549668874175,
+  "high_crit_miss_rate": 0.4013333333333333,
+  "p99_ms": 181.90943457580164,
+  "measured_util": 0.8873268878589516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.39536423841059604,
+  "high_crit_miss_rate": 0.398,
+  "p99_ms": 174.62660079214677,
+  "measured_util": 0.887871689787545,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4112582781456954,
+  "high_crit_miss_rate": 0.414,
+  "p99_ms": 183.39243338707098,
+  "measured_util": 0.8911862302519418,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.4105960264900662,
+  "high_crit_miss_rate": 0.41333333333333333,
+  "p99_ms": 181.45738598610572,
+  "measured_util": 0.8867419010870635,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.3955849889624724,
+  "high_crit_miss_rate": 0.3982222222222222,
+  "p99_ms": 182.10764863083108,
+  "measured_util": 0.8846998369001884,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.39426048565121413,
+  "high_crit_miss_rate": 0.3968888888888889,
+  "p99_ms": 177.5324171885329,
+  "measured_util": 0.8841696152690669,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.39867549668874175,
+  "high_crit_miss_rate": 0.4013333333333333,
+  "p99_ms": 181.90943457580164,
+  "measured_util": 0.8873268878589516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.39536423841059604,
+  "high_crit_miss_rate": 0.398,
+  "p99_ms": 174.62660079214677,
+  "measured_util": 0.887871689787545,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4112582781456954,
+  "high_crit_miss_rate": 0.414,
+  "p99_ms": 183.39243338707098,
+  "measured_util": 0.8911862302519418,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.39867549668874175,
+  "high_crit_miss_rate": 0.4013333333333333,
+  "p99_ms": 181.90943457580164,
+  "measured_util": 0.8873268878589516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.39536423841059604,
+  "high_crit_miss_rate": 0.398,
+  "p99_ms": 174.62660079214677,
+  "measured_util": 0.887871689787545,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4112582781456954,
+  "high_crit_miss_rate": 0.414,
+  "p99_ms": 183.39243338707098,
+  "measured_util": 0.8911862302519418,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.39867549668874175,
+  "high_crit_miss_rate": 0.4013333333333333,
+  "p99_ms": 181.90943457580164,
+  "measured_util": 0.8873268878589516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.39536423841059604,
+  "high_crit_miss_rate": 0.398,
+  "p99_ms": 174.62660079214677,
+  "measured_util": 0.887871689787545,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4112582781456954,
+  "high_crit_miss_rate": 0.414,
+  "p99_ms": 183.39243338707098,
+  "measured_util": 0.8911862302519418,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 0,
+  "miss_rate": 0.39867549668874175,
+  "high_crit_miss_rate": 0.4013333333333333,
+  "p99_ms": 181.90943457580164,
+  "measured_util": 0.8873268878589516,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 1,
+  "miss_rate": 0.39536423841059604,
+  "high_crit_miss_rate": 0.398,
+  "p99_ms": 174.62660079214677,
+  "measured_util": 0.887871689787545,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.2,
+  "scale": 3.333333333333333,
+  "seed": 2,
+  "miss_rate": 0.4112582781456954,
+  "high_crit_miss_rate": 0.414,
+  "p99_ms": 183.39243338707098,
+  "measured_util": 0.8911862302519418,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.43874172185430466,
+  "high_crit_miss_rate": 0.44166666666666665,
+  "p99_ms": 194.53584207139141,
+  "measured_util": 0.931216504733023,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4324503311258278,
+  "high_crit_miss_rate": 0.43533333333333335,
+  "p99_ms": 195.09854567778274,
+  "measured_util": 0.9301735166360833,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "round_robin",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.43852097130242823,
+  "high_crit_miss_rate": 0.4414444444444444,
+  "p99_ms": 195.85861430347674,
+  "measured_util": 0.9316504586259343,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4438189845474614,
+  "high_crit_miss_rate": 0.4467777777777778,
+  "p99_ms": 199.59659060627985,
+  "measured_util": 0.933263136959199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4487858719646799,
+  "high_crit_miss_rate": 0.4517777777777778,
+  "p99_ms": 202.79523939804446,
+  "measured_util": 0.9344677151436591,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fifo",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4524282560706402,
+  "high_crit_miss_rate": 0.45544444444444443,
+  "p99_ms": 200.0787239860116,
+  "measured_util": 0.9357395651347625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4273730684326711,
+  "high_crit_miss_rate": 0.43022222222222223,
+  "p99_ms": 193.2400375162628,
+  "measured_util": 0.928432660437923,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4388520971302428,
+  "high_crit_miss_rate": 0.44177777777777777,
+  "p99_ms": 198.6038911117048,
+  "measured_util": 0.9299621586031954,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "fixed_priority",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4295805739514349,
+  "high_crit_miss_rate": 0.43244444444444446,
+  "p99_ms": 193.1165884527022,
+  "measured_util": 0.9294386543370993,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4438189845474614,
+  "high_crit_miss_rate": 0.4467777777777778,
+  "p99_ms": 199.59659060627985,
+  "measured_util": 0.933263136959199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4487858719646799,
+  "high_crit_miss_rate": 0.4517777777777778,
+  "p99_ms": 202.79523939804446,
+  "measured_util": 0.9344677151436591,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4524282560706402,
+  "high_crit_miss_rate": 0.45544444444444443,
+  "p99_ms": 200.0787239860116,
+  "measured_util": 0.9357395651347625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4438189845474614,
+  "high_crit_miss_rate": 0.4467777777777778,
+  "p99_ms": 199.59659060627985,
+  "measured_util": 0.933263136959199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4487858719646799,
+  "high_crit_miss_rate": 0.4517777777777778,
+  "p99_ms": 202.79523939804446,
+  "measured_util": 0.9344677151436591,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4524282560706402,
+  "high_crit_miss_rate": 0.45544444444444443,
+  "p99_ms": 200.0787239860116,
+  "measured_util": 0.9357395651347625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4438189845474614,
+  "high_crit_miss_rate": 0.4467777777777778,
+  "p99_ms": 199.59659060627985,
+  "measured_util": 0.933263136959199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4487858719646799,
+  "high_crit_miss_rate": 0.4517777777777778,
+  "p99_ms": 202.79523939804446,
+  "measured_util": 0.9344677151436591,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "edf_batch_same_deadline",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4524282560706402,
+  "high_crit_miss_rate": 0.45544444444444443,
+  "p99_ms": 200.0787239860116,
+  "measured_util": 0.9357395651347625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 0,
+  "miss_rate": 0.4438189845474614,
+  "high_crit_miss_rate": 0.4467777777777778,
+  "p99_ms": 199.59659060627985,
+  "measured_util": 0.933263136959199,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 1,
+  "miss_rate": 0.4487858719646799,
+  "high_crit_miss_rate": 0.4517777777777778,
+  "p99_ms": 202.79523939804446,
+  "measured_util": 0.9344677151436591,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ },
+ {
+  "workload": "vla_plus_control",
+  "policy": "dynamic_batch",
+  "target_util": 1.3,
+  "scale": 3.6111111111111107,
+  "seed": 2,
+  "miss_rate": 0.4524282560706402,
+  "high_crit_miss_rate": 0.45544444444444443,
+  "p99_ms": 200.0787239860116,
+  "measured_util": 0.9357395651347625,
+  "mean_batch": 1.0,
+  "admitted": {
+   "none": false,
+   "same_deadline": false,
+   "cross_deadline": false
+  }
+ }
+]
